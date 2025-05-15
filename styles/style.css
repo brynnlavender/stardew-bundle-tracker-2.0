@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'StardewFont';
+    src: url('../fonts/StardewValley.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+
+}
+
+.header {
+    display: flex;
+    background-color: aqua;
+    /*font-family: 'StardewFont';*/
+}
+
+.header h1 {
+    margin: 0 auto;
+}
+
+.header span {
+    margin: 10px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.login {
+    background-color: chocolate;
+}
+
+.register {
+    background-color: greenyellow;
+    height: 100%;
+}
