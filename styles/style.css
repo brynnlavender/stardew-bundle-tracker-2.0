@@ -73,11 +73,16 @@ body {
 
 input[type=text], input[type=password] {
     border: none;
-    background-color: transparent;
+    border-radius: 10px;
+    background-color: white;
+    width: 95%;
+    height: 30px;
+    margin: 5px auto;
 }
 
 input[type=text]:focus, input[type=password]:focus {
     border: none;
+    outline: none;
     border-radius: 10px;
     background-color: transparent;
 }
