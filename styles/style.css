@@ -11,16 +11,24 @@
 
 body {
     background-image: url('../images/stardew_day_1920x1080.png');
+    background-size: 100%;
+    font-family: 'Inter';
 }
 
 #about {
     padding-right: 31.12px;
+    background-color: blueviolet;
+}
+
+#login {
+    background-color: blueviolet;
 }
 
 .header {
     display: flex;
     background-color: aqua;
     margin-top: 20px;
+    color: white;
     /*font-family: 'StardewFont';*/
 }
 
@@ -37,7 +45,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 5%;
 }
 
 #login:hover, #about-text:hover {
@@ -50,6 +58,12 @@ body {
     margin: 0;
 }
 
+.login-register-container h2 {
+    font-size: 2em;
+    margin: 10px auto;
+    background-color: aqua;
+}
+
 .login {
     background-color: lavender;
     font-family: 'Inter';
@@ -59,6 +73,7 @@ body {
 .register {
     background-color: lavender;
     font-family: 'Inter';
+    display: none;
 }
 
 .login, .register {
@@ -131,4 +146,13 @@ input[type=text]:focus, input[type=password]:focus {
     cursor: pointer;
     background-color: rgb(196, 196, 196);
     border-radius: 10px;
+}
+
+#login-here, #register-here {
+    color: purple;
+    text-decoration: underline;
+}
+
+#login-here:hover, #register-here:hover {
+    cursor: pointer;
 }
