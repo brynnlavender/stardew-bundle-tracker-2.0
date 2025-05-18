@@ -20,14 +20,16 @@
             <div class="login">
                 <h2>Login</h2>
                 <form method="post">
-                    <label for="email">
-                        <ion-icon name="mail"></ion-icon>
-                    </label>
-                    <input type="text" id="email" name="email" placeholder="Email" required><br>
-                    <label for="password">
-                        <ion-icon name="lock-closed"></ion-icon>
-                    </label>
-                    <input type="text" id="password" name="password" placeholder="Password" required><br>
+                    <div id="email-password">
+                        <label for="email">
+                            <ion-icon name="mail"></ion-icon>
+                        </label>
+                        <input type="text" id="email1" name="email" placeholder="Email" required><br>
+                        <label for="password">
+                            <ion-icon name="lock-closed"></ion-icon>
+                        </label>
+                        <input type="text" id="password1" name="password" placeholder="Password" required><br>
+                    </div>
                     <div class="remember-forgot">
                         <input type="checkbox" id="remember-me">
                         <label for="remember-me">Remember me</label><br>
@@ -37,26 +39,28 @@
                         <input type="submit" value="Sign In">
                     </div>
                 </form>
-                <p>Don't have an account? <a href="">Register here</a></p>
+                <p>Don't have an account? <a href="" id="register-here">Register here</a></p>
             </div>
             <div class="register">
                 <h2>Register</h2>
                 <form method="post">
-                    <label for="email">
-                        <ion-icon name="mail"></ion-icon>
-                    </label>
-                    <input type="text" id="email" name="email" placeholder="Email" required><br>
-                    <label for="password">
-                        <ion-icon name="lock-closed"></ion-icon>
-                    </label>
-                    <input type="password" id="password" name="password" placeholder="Password" required><br>
+                    <div id="email-password">
+                        <label for="email">
+                            <ion-icon name="mail"></ion-icon>
+                        </label>
+                        <input type="text" id="email2" name="email" placeholder="Email" required><br>
+                        <label for="password">
+                            <ion-icon name="lock-closed"></ion-icon>
+                        </label>
+                        <input type="password" id="password2" name="password" placeholder="Password" required><br>
+                    </div>
                     <input type="checkbox" id="terms-and-conditions" id="terms-and-conditions" required>
                     <label for="terms-and-conditions">I agree to the terms & conditions</label><br>
                     <div class="register-btn">
                         <input type="submit" value="Sign Up">
                     </div>
                 </form>
-                <p>Already have an account? <a href="">Login here</a></p>
+                <p>Already have an account? <a href="" id="login-here">Login here</a></p>
             </div>
         </div>
     </div>
@@ -66,6 +70,6 @@
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <script src="scripts/script.js"></script>
+    <script src="scripts/stardew-tracker.js"></script>
 </body>
 </html>
