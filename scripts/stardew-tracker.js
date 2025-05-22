@@ -16,3 +16,8 @@ document.getElementById("register-here").addEventListener("click", function() {
     document.querySelector(".login").style.display = "none";
     document.querySelector(".register").style.display = "block";
 });
+
+document.querySelectorAll("ion-icon[name=close-outline]").addEventListener("click", function() {
+    document.querySelector(".login").style.display = "none";
+    document.querySelector(".register").style.display = "none";
+});
