@@ -61,17 +61,18 @@ body {
 .login-register-container h2 {
     font-size: 2em;
     margin: 10px auto;
-    background-color: aqua;
 }
 
 .login {
-    background-color: lavender;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid white;
     font-family: 'Inter';
     display: none;
 }
 
 .register {
-    background-color: lavender;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid white;
     font-family: 'Inter';
     display: none;
 }
@@ -86,7 +87,7 @@ body {
     align-items: center;
 }
 
-.login h2, .register h2, .login p, .register p, .register input[type=checkbox] {
+.login h2, .register h2, .login p, .register p {
     text-align: center;
 }
 
@@ -104,6 +105,10 @@ ion-icon[name="close-outline"] {
     position: absolute;
     right: 0;
     cursor: pointer;
+}
+
+ion-icon[name="close-outline"]:hover {
+    color: white;
 }
 
 #email-password {
