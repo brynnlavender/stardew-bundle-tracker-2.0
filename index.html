@@ -23,15 +23,19 @@
                     <ion-icon name="close-outline"></ion-icon>
                 </div>
                 <form method="post">
-                    <div id="email-password">
-                        <label for="email">
-                            <ion-icon name="mail"></ion-icon>
-                        </label>
-                        <input type="text" id="email1" name="email" placeholder="Email" required><br>
-                        <label for="password">
-                            <ion-icon name="lock-closed"></ion-icon>
-                        </label>
-                        <input type="text" id="password1" name="password" placeholder="Password" required><br>
+                    <div class="email-password">
+                        <div class="input-group">
+                            <label for="email">
+                                <ion-icon name="mail"></ion-icon>
+                            </label>
+                            <input type="text" id="email1" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="password">
+                                <ion-icon name="lock-closed"></ion-icon>
+                            </label>
+                            <input type="text" id="password1" name="password" placeholder="Password" required>
+                        </div>
                     </div>
                     <div class="remember-forgot">
                         <input type="checkbox" id="remember-me">
@@ -42,8 +46,10 @@
                         <input type="submit" value="Sign In">
                     </div>
                 </form>
-                <p>Don't have an account?</p>
-                <p id="register-here">Register here</p>
+                <div class="login-footer">
+                    <p>Don't have an account?</p>
+                    <p id="register-here">Register here</p>
+                </div>
             </div>
             <div class="register">
                 <div class="register-header">
@@ -51,15 +57,19 @@
                     <ion-icon name="close-outline"></ion-icon>
                 </div>
                 <form method="post">
-                    <div id="email-password">
-                        <label for="email">
-                            <ion-icon name="mail"></ion-icon>
-                        </label>
-                        <input type="text" id="email2" name="email" placeholder="Email" required><br>
-                        <label for="password">
-                            <ion-icon name="lock-closed"></ion-icon>
-                        </label>
-                        <input type="password" id="password2" name="password" placeholder="Password" required><br>
+                    <div class="email-password">
+                        <div class="input-group">
+                            <label for="email">
+                                <ion-icon name="mail"></ion-icon>
+                            </label>
+                            <input type="text" id="email2" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="password">
+                                <ion-icon name="lock-closed"></ion-icon>
+                            </label>
+                            <input type="password" id="password2" name="password" placeholder="Password" required>
+                        </div>
                     </div>
                     <input type="checkbox" id="terms-and-conditions" id="terms-and-conditions" required>
                     <label for="terms-and-conditions">I agree to the terms & conditions</label><br>
@@ -69,7 +79,7 @@
                 </form>
                 <div class="register-footer">
                     <p>Already have an account?</p>
-                    <p id="login-here"> Login here</p>
+                    <p id="login-here">Login here</p>
                 </div>
             </div>
         </div>

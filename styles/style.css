@@ -111,12 +111,20 @@ ion-icon[name="close-outline"]:hover {
     color: white;
 }
 
-#email-password {
-    background-color: gray;
+.email-password {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 auto 0 auto;
-    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 8px;
 }
 
 ion-icon[name="mail"], ion-icon[name="lock-closed"] {
@@ -126,17 +134,16 @@ ion-icon[name="mail"], ion-icon[name="lock-closed"] {
 
 input[type=text], input[type=password] {
     border: none;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: white;
-    width: 80%;
-    height: 30px;
-    margin: 5px auto;
+    width: 85%;
+    height: 35px;
+    margin: 5px 0 0 8px;
 }
 
 input[type=text]:focus, input[type=password]:focus {
     border: none;
     outline: none;
-    border-radius: 10px;
     background-color: white;
 }
 
@@ -170,8 +177,15 @@ input[type=text]:focus, input[type=password]:focus {
     border-radius: 10px;
 }
 
-.register-footer {
+.login-footer, .register-footer {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+#terms-and-conditions {
+    margin: 10px 0 10px;
 }
 
 #login-here, #register-here {
