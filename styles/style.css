@@ -164,6 +164,15 @@ input[type=text]:focus, input[type=password]:focus {
     margin: 0 0 0 auto;
 }
 
+.remember-forgot a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    color: rgb(255, 255, 255);
+}
+
 input[type=checkbox] {
     accent-color: rgb(0, 132, 255);
 }
@@ -215,4 +224,5 @@ input[value="Sign In"], input[value="Sign Up"] {
 
 #login-here:hover, #register-here:hover {
     cursor: pointer;
+    color: white;
 }
