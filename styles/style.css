@@ -91,8 +91,6 @@ body {
     margin-top: 20px;
 }
 
-
-
 .login h2, .register h2, .login p, .register p {
     text-align: center;
 }
@@ -139,10 +137,10 @@ ion-icon[name="mail"], ion-icon[name="lock-closed"] {
 
 input[type=text], input[type=password] {
     border: none;
-    border-radius: 15px;
+    border-radius: 20px;
     background-color: white;
     width: 85%;
-    height: 35px;
+    height: 40px;
     margin: 5px 0 0 8px;
     padding-left: 10px;
     font-size: 0.9em;
@@ -158,10 +156,15 @@ input[type=text]:focus, input[type=password]:focus {
     display: flex;
     align-items: center;
     margin: 8px 10px 15px 15px;
+    font-size: 0.95em;
+}
+
+.remember-forgot label {
+    margin-left: 5px;
 }
 
 .remember-forgot p {
-    margin: 0 0 0 auto;
+    margin: 0 10px 0 auto;
 }
 
 .remember-forgot a {
@@ -178,12 +181,12 @@ input[type=checkbox] {
 }
 
 .login-btn, .register-btn {
-    margin: 60px auto 0;
-    border-radius: 15px;
-    height: 40px;
-    width: 60%;
+    margin: 50px auto 0;
+    border-radius: 25px;
+    height: 45px;
+    width: 50%;
     display: flex;
-    background-color: rgb(131, 131, 131);
+    background-color: rgb(43, 154, 206);
 }
 
 input[value="Sign In"], input[value="Sign Up"] {
@@ -199,8 +202,8 @@ input[value="Sign In"], input[value="Sign Up"] {
 
 .login-btn input:hover, .register-btn input:hover {
     cursor: pointer;
-    background-color: rgb(179, 179, 179);
-    border-radius: 15px;
+    background-color: rgb(64, 182, 236);
+    border-radius: 25px;
 }
 
 .login-footer, .register-footer {
@@ -214,15 +217,19 @@ input[value="Sign In"], input[value="Sign Up"] {
 .terms-and-conditions {
     display: flex;
     align-items: center;
+    font-size: 0.95em;
     margin: 8px 0 10px 15px;
 }
 
+.terms-and-conditions label {
+    margin-left: 5px;
+}
+
 #login-here, #register-here {
-    color: purple;
-    text-decoration: underline;
+    font-weight: 700;
 }
 
 #login-here:hover, #register-here:hover {
     cursor: pointer;
-    color: white;
+    color: rgb(255, 255, 255);
 }
