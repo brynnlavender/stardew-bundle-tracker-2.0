@@ -202,7 +202,7 @@ input[value="Sign In"], input[value="Sign Up"] {
 
 .login-btn input:hover, .register-btn input:hover {
     cursor: pointer;
-    background-color: rgb(64, 182, 236);
+    background-color: rgb(78, 191, 243);
     border-radius: 25px;
 }
 
