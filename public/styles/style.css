@@ -81,7 +81,7 @@ body {
     padding: 5px;
     border-radius: 20px;
     margin-top: 10px;
-    height: 390px;
+    min-height: 390px;
     width: 400px;
     justify-content: center;
     align-items: center;
@@ -150,6 +150,12 @@ input[type=text]:focus, input[type=password]:focus {
     border: none;
     outline: none;
     background-color: white;
+}
+
+.wrong-email-password span {
+    margin: 8px 10px 15px 15px;
+    font-size: 0.95em;
+    color: rgb(151, 0, 0);
 }
 
 .remember-forgot {
@@ -231,5 +237,5 @@ input[value="Sign In"], input[value="Sign Up"] {
 
 #login-here:hover, #register-here:hover {
     cursor: pointer;
-    color: rgb(255, 255, 255);
+    color: rgb(180, 180, 180);
 }

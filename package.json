@@ -19,5 +19,6 @@
   "homepage": "https://github.com/brynnlavender/stardew-bundle-tracker-2.0#readme",
   "dependencies": {
     "firebase": "^11.9.0"
-  }
+  },
+  "devDependencies": {}
 }

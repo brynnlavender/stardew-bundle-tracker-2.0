@@ -6,6 +6,14 @@
     },
     "ui": {
       "enabled": true
+    },
+    "hosting": {
+      "port": 5002,
+      "rootDirectory": "./"
     }
+  },
+  "hosting": {
+    "public": "./",
+    "ignore": ["firebase.json","**/.*","**/node_modules/**"]
   }
 }
