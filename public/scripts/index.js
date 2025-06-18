@@ -4,7 +4,9 @@ import {
   getAuth,
   connectAuthEmulator,
   signInWithEmailAndPassword,
-  createUserWithEmailAndPassword
+  createUserWithEmailAndPassword,
+  onAuthStateChanged,
+  signOut
 } from 'https://www.gstatic.com/firebasejs/9.22.1/firebase-auth.js';
 
 // TODO: Add SDKs for Firebase products that you want to use
@@ -27,23 +29,54 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 connectAuthEmulator(auth, "http://127.0.0.1:9099");
 
+// Logs the user into the web application using email and password
 const loginEmailPassword = async () => {
+  const loginEmail = document.getElementById("email1").value;
+  const loginPassword = document.getElementById("password1").value;
+  
   try {
-    const loginEmail = document.getElementById("email1").value;
-    const loginPassword = document.getElementById("password1").value;
-
     const userCredential = await signInWithEmailAndPassword(auth, loginEmail, loginPassword);
     console.log(userCredential.user);
     document.getElementById("login").textContent = "Logout";
     document.querySelector(".wrong-email-password").innerHTML = ``;
   } catch (err) {
     console.error("Login failed:", err);
-    //alert("The email or password is invalid. Please try again.");
     document.querySelector(".wrong-email-password").innerHTML = `<span>The email or password is invalid. Please try again.</span>`;
   }
 }
 
 document.getElementById("login-btn").addEventListener("click", loginEmailPassword);
-document.getElementById("login-btn").addEventListener("click", () => {
-  console.log("Button clicked");
-});
+
+// Creates the user account with an email and password
+const createAccount = async() => {
+  const registerEmail = document.getElementById("email2").value;
+  const registerPassword = document.getElementById("password2").value;
+  const termsAndConditions = document.getElementById("terms-and-conditions");
+
+  if (termsAndConditions.checked === true) {
+    try {
+      const userCredential = await createUserWithEmailAndPassword(auth, registerEmail, registerPassword);
+      document.querySelector(".terms-unchecked").innerHTML = ``;
+      console.log(userCredential.user);
+    } catch (err) {
+      alert(err);
+    }
+  } else {
+    document.querySelector(".terms-unchecked").innerHTML = `<span>You must agree to the terms & conditions to continue.</span>`;
+  }
+}
+
+document.getElementById("register-btn").addEventListener("click", createAccount);
+
+const logout = async () => {
+
+}
+
+if (document.getElementById("login").textContent === "Logout") {
+  
+}
+
+function ifUserIsLoggedIn() {
+  document.getElementById("login").textContent = "Logout";
+  // add div contents here
+}
