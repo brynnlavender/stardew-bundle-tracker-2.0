@@ -5,8 +5,7 @@
 document.getElementById("login").addEventListener("click", function() {
     document.querySelector(".login").style.display = "block";
     document.querySelector(".register").style.display = "none";
-    document.querySelector(".logged-in").style.display = "none";
-    document.querySelector(".logged-out").style.display = "none";
+    document.querySelector(".auth-status").style.display = "none";
 });
 
 document.getElementById("login-here").addEventListener("click", function() {

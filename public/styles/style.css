@@ -158,7 +158,8 @@ input[type=text]:focus, input[type=password]:focus {
 
 .wrong-email-password span, .terms-unchecked span {
     margin: 8px 10px 15px 15px;
-    font-size: 0.95em;
+    font-size: 0.9em;
+    font-weight: 500;
     color: rgb(151, 0, 0);
 }
 
@@ -245,11 +246,11 @@ input[value="Sign In"], input[value="Sign Up"] {
     color: rgb(180, 180, 180);
 }
 
-.logged-in, .logged-out {
+.auth-status {
     display: none;
     align-items: center;
     justify-content: center;
-    height: 300px;
+    height: 150px;
     width: 400px;
     background-color: rgba(255, 255, 255, 0.8);
     border: 2px solid white;
@@ -257,4 +258,26 @@ input[value="Sign In"], input[value="Sign Up"] {
     border-radius: 20px;
     margin-top: 10px;
     padding: 5px;
+}
+
+.auth-status span {
+    position: relative;
+    margin: 50px auto;
+    font-weight: 600;
+}
+
+.auth-status-header {
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.status-update {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aqua;
 }

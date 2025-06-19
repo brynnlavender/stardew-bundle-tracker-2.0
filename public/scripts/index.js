@@ -30,6 +30,7 @@ const auth = getAuth(app);
 connectAuthEmulator(auth, "http://127.0.0.1:9099");
 
 // Logs the user into the web application using email and password
+
 const loginEmailPassword = async () => {
   const loginEmail = document.getElementById("email1").value;
   const loginPassword = document.getElementById("password1").value;
@@ -47,6 +48,7 @@ const loginEmailPassword = async () => {
 document.getElementById("login-btn").addEventListener("click", loginEmailPassword);
 
 // Creates the user account with an email and password
+
 const createAccount = async() => {
   const registerEmail = document.getElementById("email2").value;
   const registerPassword = document.getElementById("password2").value;
@@ -55,7 +57,7 @@ const createAccount = async() => {
   if (termsAndConditions.checked === true) {
     try {
       const userCredential = await createUserWithEmailAndPassword(auth, registerEmail, registerPassword);
-      document.querySelector(".terms-unchecked").innerHTML = ``;
+      ifSuccessfulRegister();
       console.log(userCredential.user);
     } catch (err) {
       alert(err);
@@ -67,13 +69,23 @@ const createAccount = async() => {
 
 document.getElementById("register-btn").addEventListener("click", createAccount);
 
+// Logs the user out of their account
+
 const logout = async () => {
-
+  await signOut(auth);
 }
 
-if (document.getElementById("login").textContent === "Logout") {
-  
-}
+document.getElementById("login").addEventListener("click", () => {
+  const loginText = document.getElementById("login").textContent;
+  if (loginText === "Logout") {
+    logout();
+    ifUserIsLoggedOut();
+  } else {
+    document.querySelector(".login").style.display = "block";
+  }
+});
+
+// Helper functions for changing styles based on auth status
 
 function hideLoginRegister() {
   document.querySelector(".login").style.display = "none";
@@ -84,19 +96,27 @@ function ifUserIsLoggedIn() {
   document.getElementById("login").textContent = "Logout";
   document.querySelector(".wrong-email-password").innerHTML = ``;
   hideLoginRegister();
-  document.querySelector(".logged-in").style.display = "block";
-  document.querySelector(".logged-out").style.display = "none";
+  document.querySelector(".auth-status").style.display = "block";
 
-  document.querySelector(".logged-in").innerHTML = `
+  document.querySelector(".status-update").innerHTML = `
     <span>You are now logged in.</span>`;
 }
 
 function ifUserIsLoggedOut() {
   document.getElementById("login").textContent = "Login";
   hideLoginRegister();
-  document.querySelector(".logged-in").style.display = "none";
-  document.querySelector(".logged-out").style.display = "block";
+  document.querySelector(".auth-status").style.display = "block";
 
-  document.querySelector(".logged-out").innerHTML = `
-    <span>You are now logged out.</span>`;
+  document.querySelector(".status-update").innerHTML = `
+  <span>You are now logged out.</span>`;
+  
+  console.log("user is logged out");
+}
+
+function ifSuccessfulRegister() {
+  hideLoginRegister();
+  document.querySelector(".terms-unchecked").innerHTML = ``;
+  document.querySelector(".auth-status").style.display = "block";
+  document.querySelector(".status-update").innerHTML = `
+  <span>Your account has been registered.</span>`;
 }
