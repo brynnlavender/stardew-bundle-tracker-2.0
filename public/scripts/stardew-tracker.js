@@ -5,11 +5,14 @@
 document.getElementById("login").addEventListener("click", function() {
     document.querySelector(".login").style.display = "block";
     document.querySelector(".register").style.display = "none";
+    document.querySelector(".logged-in").style.display = "none";
+    document.querySelector(".logged-out").style.display = "none";
 });
 
 document.getElementById("login-here").addEventListener("click", function() {
     document.querySelector(".login").style.display = "block";
     document.querySelector(".register").style.display = "none";
+    document.querySelector(".terms-unchecked").innerHTML = ``;
 });
 
 document.getElementById("register-here").addEventListener("click", function() {
@@ -24,3 +27,5 @@ document.querySelectorAll("ion-icon[name=close-outline]").forEach(function(icon)
         document.querySelector(".register").style.display = "none";
     });
 });
+
+

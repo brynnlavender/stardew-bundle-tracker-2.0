@@ -37,8 +37,7 @@ const loginEmailPassword = async () => {
   try {
     const userCredential = await signInWithEmailAndPassword(auth, loginEmail, loginPassword);
     console.log(userCredential.user);
-    document.getElementById("login").textContent = "Logout";
-    document.querySelector(".wrong-email-password").innerHTML = ``;
+    ifUserIsLoggedIn();
   } catch (err) {
     console.error("Login failed:", err);
     document.querySelector(".wrong-email-password").innerHTML = `<span>The email or password is invalid. Please try again.</span>`;
@@ -76,7 +75,28 @@ if (document.getElementById("login").textContent === "Logout") {
   
 }
 
+function hideLoginRegister() {
+  document.querySelector(".login").style.display = "none";
+  document.querySelector(".register").style.display = "none";
+}
+
 function ifUserIsLoggedIn() {
   document.getElementById("login").textContent = "Logout";
-  // add div contents here
+  document.querySelector(".wrong-email-password").innerHTML = ``;
+  hideLoginRegister();
+  document.querySelector(".logged-in").style.display = "block";
+  document.querySelector(".logged-out").style.display = "none";
+
+  document.querySelector(".logged-in").innerHTML = `
+    <span>You are now logged in.</span>`;
+}
+
+function ifUserIsLoggedOut() {
+  document.getElementById("login").textContent = "Login";
+  hideLoginRegister();
+  document.querySelector(".logged-in").style.display = "none";
+  document.querySelector(".logged-out").style.display = "block";
+
+  document.querySelector(".logged-out").innerHTML = `
+    <span>You are now logged out.</span>`;
 }
