@@ -24,6 +24,8 @@ document.querySelectorAll("ion-icon[name=close-outline]").forEach(function(icon)
     icon.addEventListener("click", function() {
         document.querySelector(".login").style.display = "none";
         document.querySelector(".register").style.display = "none";
+        document.querySelector(".auth-status").style.display = "none";
+        console.log("View closed");
     });
 });
 
