@@ -1,8 +1,561 @@
 [
     {
-
+        "name": "Wild Horseradish",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/9/90/Wild_Horseradish.png/24px-Wild_Horseradish.png",
+        "additionalInfo": "",
+        "season": "spring",
+        "bundle": "spring foraging",
+        "userId": "",
+        "checked": false
     },
     {
-        
-    }
+        "name": "Daffodil",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/4b/Daffodil.png/24px-Daffodil.png",
+        "additionalInfo": "Can be bought from Pierre at Flower Dance",
+        "season": "spring",
+        "bundle": "spring foraging",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Leek",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/5/57/Leek.png/24px-Leek.png",
+        "additionalInfo": "",
+        "season": "spring",
+        "bundle": "spring foraging",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Dandelion",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/b/b1/Dandelion.png/24px-Dandelion.png",
+        "additionalInfo": "Can be bought from Pierre at Flower Dance",
+        "season": "spring",
+        "bundle": "spring foraging",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Grape",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/c/c2/Grape.png/24px-Grape.png",
+        "additionalInfo": "",
+        "season": ["summer", "fall"],
+        "bundle": "summer foraging",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Spice Berry",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/c/c6/Spice_Berry.png/24px-Spice_Berry.png",
+        "additionalInfo": "Obtainable year round with the fruit bat Farm Cave",
+        "season": "summer",
+        "bundle": "summer foraging",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Sweet Pea",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/d/d9/Sweet_Pea.png/24px-Sweet_Pea.png",
+        "additionalInfo": "",
+        "season": "summer",
+        "bundle": "summer foraging",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Common Mushroom",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/2/2e/Common_Mushroom.png/24px-Common_Mushroom.png",
+        "additionalInfo": ["Only found in Spring if foraging in the Secret Woods",
+                            "Obtainable year round with the mushroom Farm Cave or by tapping a mushroom tree"],
+        "season": ["spring", "fall"],
+        "bundle": "fall foraging",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Wild Plum",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/3b/Wild_Plum.png/24px-Wild_Plum.png",
+        "additionalInfo": "Obtainable year round with the fruit bat Farm Cave",
+        "season": "fall",
+        "bundle": "fall foraging",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Hazelnut",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/31/Hazelnut.png/24px-Hazelnut.png",
+        "additionalInfo": "",
+        "season": "fall",
+        "bundle": "fall foraging",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Blackberry",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/2/25/Blackberry.png/24px-Blackberry.png",
+        "additionalInfo": "Obtainable year round with the fruit bat Farm Cave",
+        "season": "fall",
+        "bundle": "fall foraging",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Winter Root",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/1/11/Winter_Root.png/24px-Winter_Root.png",
+        "additionalInfo": "Grows underground so it must be tilled from soil or artifact spots in Winter",
+        "season": "winter",
+        "bundle": "winter foraging",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Crystal Fruit",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Crystal_Fruit.png/24px-Crystal_Fruit.png",
+        "additionalInfo": "",
+        "season": "winter",
+        "bundle": "winter foraging",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Snow Yam",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/3f/Snow_Yam.png/24px-Snow_Yam.png",
+        "additionalInfo": "Grows underground so it must be tilled from soil or artifact spots in Winter",
+        "season": "winter",
+        "bundle": "winter foraging",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Crocus",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/2/2f/Crocus.png/24px-Crocus.png",
+        "additionalInfo": "",
+        "season": "winter",
+        "bundle": "winter foraging",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Wood (99)",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/d/df/Wood.png/24px-Wood.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "construction",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Wood (99)",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/d/df/Wood.png/24px-Wood.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "construction",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Stone (99)",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/d/d4/Stone.png/24px-Stone.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "construction",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Hardwood (10)",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/e/ed/Hardwood.png/24px-Hardwood.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "construction",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Coconut",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/2/2f/Coconut.png/24px-Coconut.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "exotic foraging",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Cactus Fruit",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/32/Cactus_Fruit.png/24px-Cactus_Fruit.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "exotic foraging",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Cave Carrot",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/34/Cave_Carrot.png/24px-Cave_Carrot.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "exotic foraging",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Red Mushroom",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/e/e1/Red_Mushroom.png/24px-Red_Mushroom.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "exotic foraging",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Purple Mushroom",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/4b/Purple_Mushroom.png/24px-Purple_Mushroom.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "exotic foraging",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Maple Syrup",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/6/6a/Maple_Syrup.png/24px-Maple_Syrup.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "exotic foraging",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Oak Resin",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/40/Oak_Resin.png/24px-Oak_Resin.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "exotic foraging",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Pine Tar",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/c/ce/Pine_Tar.png/24px-Pine_Tar.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "exotic foraging",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Morel",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/b/b1/Morel.png/24px-Morel.png",
+        "additionalInfo": "Obtainable year round with the mushroom Farm Cave",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "exotic foraging",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Parsnip",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/d/db/Parsnip.png/24px-Parsnip.png",
+        "additionalInfo": "",
+        "season": "spring",
+        "bundle": "spring crops",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Green Bean",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/5/5c/Green_Bean.png/24px-Green_Bean.png",
+        "additionalInfo": "",
+        "season": "spring",
+        "bundle": "spring crops",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Cauliflower",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/a/aa/Cauliflower.png/24px-Cauliflower.png",
+        "additionalInfo": "",
+        "season": "spring",
+        "bundle": "spring crops",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Potato",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/c/c2/Potato.png/24px-Potato.png",
+        "additionalInfo": "",
+        "season": "spring",
+        "bundle": "spring crops",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Tomato",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/9/9d/Tomato.png/24px-Tomato.png",
+        "additionalInfo": "",
+        "season": "summer",
+        "bundle": "summer crops",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Hot Pepper",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/f/f1/Hot_Pepper.png/24px-Hot_Pepper.png",
+        "additionalInfo": "",
+        "season": "summer",
+        "bundle": "summer crops",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Blueberry",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/9/9e/Blueberry.png/24px-Blueberry.png",
+        "additionalInfo": "",
+        "season": "summer",
+        "bundle": "summer crops",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Melon",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/1/19/Melon.png/24px-Melon.png",
+        "additionalInfo": "",
+        "season": "summer",
+        "bundle": "summer crops",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Corn",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/f/f8/Corn.png/24px-Corn.png",
+        "additionalInfo": "",
+        "season": ["summer", "fall"],
+        "bundle": "fall crops",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Eggplant",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/8/8f/Eggplant.png/24px-Eggplant.png",
+        "additionalInfo": "",
+        "season": "fall",
+        "bundle": "fall crops",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Pumpkin",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/6/64/Pumpkin.png/24px-Pumpkin.png",
+        "additionalInfo": "",
+        "season": "fall",
+        "bundle": "fall crops",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Yam",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/5/52/Yam.png/24px-Yam.png",
+        "additionalInfo": "",
+        "season": "fall",
+        "bundle": "fall crops",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Parsnip (5)",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/47/Gold_Quality_Icon.png/24px-Gold_Quality_Icon.png",
+        "additionalInfo": "",
+        "season": "spring",
+        "bundle": "quality crops",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Melon (5)",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/47/Gold_Quality_Icon.png/24px-Gold_Quality_Icon.png",
+        "additionalInfo": "",
+        "season": "summer",
+        "bundle": "quality crops",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Pumpkin (5)",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/47/Gold_Quality_Icon.png/24px-Gold_Quality_Icon.png",
+        "additionalInfo": "",
+        "season": "fall",
+        "bundle": "quality crops",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Corn (5)",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/47/Gold_Quality_Icon.png/24px-Gold_Quality_Icon.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer"],
+        "bundle": "quality crops",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Large Milk",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/6/67/Large_Milk.png/24px-Large_Milk.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "animal",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Large Egg (Brown)",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/9/91/Large_Brown_Egg.png/24px-Large_Brown_Egg.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "animal",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Large Egg",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/5/5d/Large_Egg.png/24px-Large_Egg.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "animal",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Large Goat Milk",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/f/f2/Large_Goat_Milk.png/24px-Large_Goat_Milk.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "animal",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Wool",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/34/Wool.png/24px-Wool.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "animal",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Duck Egg",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/31/Duck_Egg.png/24px-Duck_Egg.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "animal",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Truffle Oil",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/3d/Truffle_Oil.png/24px-Truffle_Oil.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "animal",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Cloth",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/5/51/Cloth.png/24px-Cloth.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "animal",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Goat Cheese",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/c/c8/Goat_Cheese.png/24px-Goat_Cheese.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "animal",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Cheese",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/a/a5/Cheese.png/24px-Cheese.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "animal",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Honey",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/c/c6/Honey.png/24px-Honey.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "animal",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Jelly",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/0/05/Jelly.png/24px-Jelly.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "animal",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Apple",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/7/7d/Apple.png/24px-Apple.png",
+        "additionalInfo": "Obtainable year round with the fruit bat Farm Cave",
+        "season": "fall",
+        "bundle": "animal",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Apricot",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/f/fc/Apricot.png/24px-Apricot.png",
+        "additionalInfo": "Obtainable year round with the fruit bat Farm Cave",
+        "season": "spring",
+        "bundle": "animal",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Orange",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/43/Orange.png/24px-Orange.png",
+        "additionalInfo": "Obtainable year round with the fruit bat Farm Cave",
+        "season": "summer",
+        "bundle": "animal",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Peach",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/e/e2/Peach.png/24px-Peach.png",
+        "additionalInfo": "Obtainable year round with the fruit bat Farm Cave",
+        "season": "summer",
+        "bundle": "animal",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Pomegranate",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/1/1b/Pomegranate.png/24px-Pomegranate.png",
+        "additionalInfo": "Obtainable year round with the fruit bat Farm Cave",
+        "season": "fall",
+        "bundle": "animal",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Cherry",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/2/20/Cherry.png/24px-Cherry.png",
+        "additionalInfo": "Obtainable year round with the fruit bat Farm Cave",
+        "season": "spring",
+        "bundle": "animal",
+        "userId": "",
+        "checked": false
+    },
 ]
