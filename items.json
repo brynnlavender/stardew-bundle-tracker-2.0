@@ -455,7 +455,7 @@
         "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/3d/Truffle_Oil.png/24px-Truffle_Oil.png",
         "additionalInfo": "",
         "season": ["spring", "summer", "fall", "winter"],
-        "bundle": "animal",
+        "bundle": "artisan",
         "userId": "",
         "checked": false
     },
@@ -464,7 +464,7 @@
         "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/5/51/Cloth.png/24px-Cloth.png",
         "additionalInfo": "",
         "season": ["spring", "summer", "fall", "winter"],
-        "bundle": "animal",
+        "bundle": "artisan",
         "userId": "",
         "checked": false
     },
@@ -473,7 +473,7 @@
         "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/c/c8/Goat_Cheese.png/24px-Goat_Cheese.png",
         "additionalInfo": "",
         "season": ["spring", "summer", "fall", "winter"],
-        "bundle": "animal",
+        "bundle": "artisan",
         "userId": "",
         "checked": false
     },
@@ -482,7 +482,7 @@
         "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/a/a5/Cheese.png/24px-Cheese.png",
         "additionalInfo": "",
         "season": ["spring", "summer", "fall", "winter"],
-        "bundle": "animal",
+        "bundle": "artisan",
         "userId": "",
         "checked": false
     },
@@ -491,7 +491,7 @@
         "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/c/c6/Honey.png/24px-Honey.png",
         "additionalInfo": "",
         "season": ["spring", "summer", "fall", "winter"],
-        "bundle": "animal",
+        "bundle": "artisan",
         "userId": "",
         "checked": false
     },
@@ -500,7 +500,7 @@
         "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/0/05/Jelly.png/24px-Jelly.png",
         "additionalInfo": "",
         "season": ["spring", "summer", "fall", "winter"],
-        "bundle": "animal",
+        "bundle": "artisan",
         "userId": "",
         "checked": false
     },
@@ -509,7 +509,7 @@
         "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/7/7d/Apple.png/24px-Apple.png",
         "additionalInfo": "Obtainable year round with the fruit bat Farm Cave",
         "season": "fall",
-        "bundle": "animal",
+        "bundle": "artisan",
         "userId": "",
         "checked": false
     },
@@ -518,7 +518,7 @@
         "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/f/fc/Apricot.png/24px-Apricot.png",
         "additionalInfo": "Obtainable year round with the fruit bat Farm Cave",
         "season": "spring",
-        "bundle": "animal",
+        "bundle": "artisan",
         "userId": "",
         "checked": false
     },
@@ -527,7 +527,7 @@
         "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/43/Orange.png/24px-Orange.png",
         "additionalInfo": "Obtainable year round with the fruit bat Farm Cave",
         "season": "summer",
-        "bundle": "animal",
+        "bundle": "artisan",
         "userId": "",
         "checked": false
     },
@@ -536,7 +536,7 @@
         "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/e/e2/Peach.png/24px-Peach.png",
         "additionalInfo": "Obtainable year round with the fruit bat Farm Cave",
         "season": "summer",
-        "bundle": "animal",
+        "bundle": "artisan",
         "userId": "",
         "checked": false
     },
@@ -545,7 +545,7 @@
         "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/1/1b/Pomegranate.png/24px-Pomegranate.png",
         "additionalInfo": "Obtainable year round with the fruit bat Farm Cave",
         "season": "fall",
-        "bundle": "animal",
+        "bundle": "artisan",
         "userId": "",
         "checked": false
     },
@@ -554,8 +554,612 @@
         "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/2/20/Cherry.png/24px-Cherry.png",
         "additionalInfo": "Obtainable year round with the fruit bat Farm Cave",
         "season": "spring",
-        "bundle": "animal",
+        "bundle": "artisan",
         "userId": "",
         "checked": false
     },
+    {
+        "name": "Sunfish",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/5/56/Sunfish.png/24px-Sunfish.png",
+        "additionalInfo": "Found between 6am-7pm during sunny weather",
+        "season": ["spring", "summer"],
+        "bundle": "river fish",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Catfish",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/9/99/Catfish.png/24px-Catfish.png",
+        "additionalInfo": ["Found between 6am-midnight during rainy weather", "Can be found in the summer only in the Secret Woods and Witch's Swamp"],
+        "season": ["spring", "summer", "fall"],
+        "bundle": "river fish",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Shad",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/e/ef/Shad.png/24px-Shad.png",
+        "additionalInfo": "Found between 9am-2am during rainy weather",
+        "season": ["spring", "summer", "fall"],
+        "bundle": "river fish",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Tiger Trout",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/0/01/Tiger_Trout.png/24px-Tiger_Trout.png",
+        "additionalInfo": "Found between 6am-7pm during any weather",
+        "season": ["fall", "winter"],
+        "bundle": "river fish",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Largemouth Bass",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/1/11/Largemouth_Bass.png/24px-Largemouth_Bass.png",
+        "additionalInfo": "Found between 6am-7pm during any weather",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "lake fish",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Carp",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/a/a8/Carp.png/24px-Carp.png",
+        "additionalInfo": ["Found anytime during any weather", "Found during spring, summer, and fall in the Mountain Lake", "Found during all seasons in the Secret Woods, The Sewers, and the Mutant Bug Lair"],
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "lake fish",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Bullhead",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/d/db/Bullhead.png/24px-Bullhead.png",
+        "additionalInfo": "Found anytime during any weather",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "lake fish",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Sturgeon",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/42/Sturgeon.png/24px-Sturgeon.png",
+        "additionalInfo": "Found between 6am-7pm during any weather",
+        "season": ["summer", "winter"],
+        "bundle": "lake fish",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Sardine",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/0/04/Sardine.png/24px-Sardine.png",
+        "additionalInfo": "Found between 6am-7pm during any weather",
+        "season": ["spring", "fall", "winter"],
+        "bundle": "ocean fish",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Tuna",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/c/c5/Tuna.png/24px-Tuna.png",
+        "additionalInfo": "Found between 6am-7pm during any weather",
+        "season": ["summer", "winter"],
+        "bundle": "ocean fish",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Red Snapper",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/d/d3/Red_Snapper.png/24px-Red_Snapper.png",
+        "additionalInfo": "Found between 6am-7pm during rainy weather",
+        "season": ["summer", "fall"],
+        "bundle": "ocean fish",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Tilapia",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/7/73/Tilapia.png/24px-Tilapia.png",
+        "additionalInfo": "Found between 6am-2pm during any weather",
+        "season": ["summer", "fall"],
+        "bundle": "ocean fish",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Walleye",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/0/05/Walleye.png/24px-Walleye.png",
+        "additionalInfo": ["Found between 12pm-2am during rainy weather", "Found in Rivers, the Mountain Lake, and Cindersap Forest Pond"],
+        "season": "fall",
+        "bundle": "night fish",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Bream",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/8/82/Bream.png/24px-Bream.png",
+        "additionalInfo": ["Found between 6pm-2am during any weather", "Found in Rivers"],
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "night fish",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Eel",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/9/91/Eel.png/24px-Eel.png",
+        "additionalInfo": ["Found between 4pm-2am during rainy weather", "Found in the Ocean"],
+        "season": ["spring", "fall"],
+        "bundle": "night fish",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Lobster",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/9/9f/Lobster.png/24px-Lobster.png",
+        "additionalInfo": "Caught in Crab Pots placed in the Ocean",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "crab pot",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Crayfish",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/5/53/Crayfish.png/24px-Crayfish.png",
+        "additionalInfo": "Caught in Crab Pots placed in Freshwater locations",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "crab pot",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Crab",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/6/63/Crab.png/24px-Crab.png",
+        "additionalInfo": "Caught in Crab Pots placed in the Ocean",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "crab pot",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Cockle",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/a/ad/Cockle.png/24px-Cockle.png",
+        "additionalInfo": "Caught in Crab Pots placed in the Ocean",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "crab pot",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Mussel",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/a/aa/Mussel.png/24px-Mussel.png",
+        "additionalInfo": "Caught in Crab Pots placed in the Ocean",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "crab pot",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Shrimp",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/9/91/Shrimp.png/24px-Shrimp.png",
+        "additionalInfo": "Caught in Crab Pots placed in the Ocean",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "crab pot",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Snail",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/d/d2/Snail.png/24px-Snail.png",
+        "additionalInfo": "Caught in Crab Pots placed in Freshwater locations",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "crab pot",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Periwinkle",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/1/1d/Periwinkle.png/24px-Periwinkle.png",
+        "additionalInfo": "Caught in Crab Pots placed in Freshwater locations",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "crab pot",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Oyster",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/5/54/Oyster.png/24px-Oyster.png",
+        "additionalInfo": "Caught in Crab Pots placed in the Ocean",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "crab pot",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Clam",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/e/ed/Clam.png/24px-Clam.png",
+        "additionalInfo": "Caught in Crab Pots placed in the Ocean",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "crab pot",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Pufferfish",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/b/ba/Pufferfish.png/24px-Pufferfish.png",
+        "additionalInfo": ["Found between 12pm-4pm during sunny weather", "Found in the Ocean"],
+        "season": "summer",
+        "bundle": "specialty fish",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Ghostfish",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/7/72/Ghostfish.png/24px-Ghostfish.png",
+        "additionalInfo": ["Found anytime", "Found in The Mines on floors 20 and 60"],
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "specialty fish",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Sandfish",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/b/bb/Sandfish.png/24px-Sandfish.png",
+        "additionalInfo": "Found between 6am-8pm in The Desert",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "specialty fish",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Woodskip",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/9/97/Woodskip.png/24px-Woodskip.png",
+        "additionalInfo": "Found anytime in the Secret Woods",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "specialty fish",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Copper Bar",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/f/f1/Copper_Bar.png/24px-Copper_Bar.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "blacksmith",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Iron Bar",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/6/6c/Iron_Bar.png/24px-Iron_Bar.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "blacksmith",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Gold Bar",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/4e/Gold_Bar.png/24px-Gold_Bar.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "blacksmith",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Quartz",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/c/cf/Quartz.png/24px-Quartz.png",
+        "additionalInfo": "Found on all floors of The Mines",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "geologist",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Earth Crystal",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/7/74/Earth_Crystal.png/24px-Earth_Crystal.png",
+        "additionalInfo": "Found on floors 1-39 of The Mines",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "geologist",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Frozen Tear",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/e/ec/Frozen_Tear.png/24px-Frozen_Tear.png",
+        "additionalInfo": "Found on floors 41-79 of The Mines",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "geologist",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Fire Quartz",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/5/5b/Fire_Quartz.png/24px-Fire_Quartz.png",
+        "additionalInfo": "Found on floors 81-119 of The Mines",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "geologist",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Slime (99)",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/38/Slime.png/24px-Slime.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "adventurer",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Bat Wing (10)",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/35/Bat_Wing.png/24px-Bat_Wing.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "adventurer",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Solar Essence",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/f/f4/Solar_Essence.png/24px-Solar_Essence.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "adventurer",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Void Essence",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/1/1f/Void_Essence.png/24px-Void_Essence.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "adventurer",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Maple Syrup",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/6/6a/Maple_Syrup.png/24px-Maple_Syrup.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "chef",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Fiddlehead Fern",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/6/6a/Maple_Syrup.png/24px-Maple_Syrup.png",
+        "additionalInfo": ["Found only during the summer in the Secret Woods", "Found during all seasons on Ginger Island, the Skull Cavern, and the Dangerous Mines"],
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "chef",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Truffle",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/f/f2/Truffle.png/24px-Truffle.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall"],
+        "bundle": "chef",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Poppy",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/3/37/Poppy.png/24px-Poppy.png",
+        "additionalInfo": "",
+        "season": "summer",
+        "bundle": "chef",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Maki Roll",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/b/b6/Maki_Roll.png/24px-Maki_Roll.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "chef",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Fried Egg",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/1/18/Fried_Egg.png/24px-Fried_Egg.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "chef",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Red Mushroom",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/e/e1/Red_Mushroom.png/24px-Red_Mushroom.png",
+        "additionalInfo": ["Can be found in the summer and fall only in the Secret Woods", "Can be foraged during all seasons in The Mines and The Farm Cave (mushroom option)"],
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "dye",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Sea Urchin",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/e/e7/Sea_Urchin.png/24px-Sea_Urchin.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "dye",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Sunflower",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/8/81/Sunflower.png/24px-Sunflower.png",
+        "additionalInfo": "",
+        "season": ["summer", "fall"],
+        "bundle": "dye",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Duck Feather",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/f/f9/Duck_Feather.png/24px-Duck_Feather.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "dye",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Aquamarine",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/a/a2/Aquamarine.png/24px-Aquamarine.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "dye",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Red Cabbage",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/2/2d/Red_Cabbage.png/24px-Red_Cabbage.png",
+        "additionalInfo": "",
+        "season": "summer",
+        "bundle": "dye",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Purple Mushroom",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/4b/Purple_Mushroom.png/24px-Purple_Mushroom.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "field research",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Nautilus Shell",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/a/a4/Nautilus_Shell.png/24px-Nautilus_Shell.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "field research",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Chub",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/b/bd/Chub.png/24px-Chub.png",
+        "additionalInfo": "Found anytime in the Mountain Lake and River",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "field research",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Frozen Geode",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/b/bf/Frozen_Geode.png/24px-Frozen_Geode.png",
+        "additionalInfo": "Found on floors 41-79 of The Mines",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "field research",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Wheat (10)",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/e/e2/Wheat.png/24px-Wheat.png",
+        "additionalInfo": "",
+        "season": ["summer", "fall"],
+        "bundle": "fodder",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Hay (10)",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/a/aa/Hay.png/24px-Hay.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "fodder",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Apple (3)",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/7/7d/Apple.png/24px-Apple.png",
+        "additionalInfo": "Obtainable year round with the fruit bat Farm Cave",
+        "season": "fall",
+        "bundle": "fodder",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Oak Resin",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/4/40/Oak_Resin.png/24px-Oak_Resin.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "enchanter",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Wine",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/6/69/Wine.png/24px-Wine.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "enchanter",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Rabbit's Foot",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/c/ca/Rabbit%27s_Foot.png/24px-Rabbit%27s_Foot.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "enchanter",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "Pomegranate",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/thumb/1/1b/Pomegranate.png/24px-Pomegranate.png",
+        "additionalInfo": "Obtainable year round with the fruit bat Farm Cave",
+        "season": "fall",
+        "bundle": "enchanter",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "2,500g",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/e/e2/2500_Bundle.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "vault",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "5,000g",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/1/17/5000_Bundle.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "vault",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "10,000g",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/1/11/10000_Bundle.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "vault",
+        "userId": "",
+        "checked": false
+    },
+    {
+        "name": "25,000g",
+        "imageUrl": "https://stardewvalleywiki.com/mediawiki/images/a/a7/25000_Bundle.png",
+        "additionalInfo": "",
+        "season": ["spring", "summer", "fall", "winter"],
+        "bundle": "vault",
+        "userId": "",
+        "checked": false
+    }
 ]
+
