@@ -7,3 +7,10 @@ const connectionString = 'mongodb+srv://lavenderbd:8RlV8tczen0teUF0@stardewtrack
 const PORT = 5002;
 const API_BASE_URL = 'http://localhost:5002';
 const app = express();
+
+app.use(cors());
+app.use(express.json());
+
+const path = require('path');
+app.use(express.static(path.join(__dirname, 'public')));
+
