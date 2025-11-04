@@ -12,16 +12,14 @@ app.use(express.json());
 
 const path = require('path');
 const { type } = require('os');
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public', 'index.html')));
 
-mongoose.connect(connectionString, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-}).then(() => {
-    console.log('Connected to MongoDB');
-}).catch(err => {
-    console.error('MongoDB connection error:', err);
-});
+mongoose.connect(connectionString)
+    .then(() => {
+        console.log('Connected to MongoDB');
+    }).catch(err => {
+        console.error('MongoDB connection error:', err);
+    });
 
 const itemSchema = new mongoose.Schema({
     name: String,

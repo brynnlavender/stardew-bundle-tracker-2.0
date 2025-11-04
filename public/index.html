@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Stardew Valley Bundle Tracker</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <span id="about"><p id="about-text">?</p></span>
+        <h1>Stardew Bundle Tracker</h1>
+        <span id="login">Login</span>
+    </div>
+    <div class="nav">
+        <span id="spring-btn">Spring</span>
+        <span id="summer-btn">Summer</span>
+        <span id="fall-btn">Fall</span>
+        <span id="winter-btn">Winter</span>
+    </div>
+    <div class="main">
+        <div class="login-register-container">
+            <div class="login">
+                <div class="login-header">
+                    <h2>Login</h2>
+                    <ion-icon name="close-outline"></ion-icon>
+                </div>
+                <form>
+                    <div class="email-password">
+                        <div class="input-group">
+                            <label for="email1">
+                                <ion-icon name="mail"></ion-icon>
+                            </label>
+                            <input type="text" id="email1" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="password1">
+                                <ion-icon name="lock-closed"></ion-icon>
+                            </label>
+                            <input type="password" id="password1" name="password" placeholder="Password" required>
+                        </div>
+                    </div>
+                    <div class="wrong-email-password"></div>
+                    <div class="remember-forgot">
+                        <input type="checkbox" id="remember-me">
+                        <label for="remember-me">Remember me</label>
+                        <p><a href="">Forgot password?</a></p>
+                    </div>
+                    <div class="login-btn">
+                        <input type="button" id="login-btn" value="Sign In">
+                    </div>
+                </form>
+                <div class="login-footer">
+                    <p>Don't have an account?</p>
+                    <p id="register-here">Register here</p>
+                </div>
+            </div>
+            <div class="register">
+                <div class="register-header">
+                    <h2>Register</h2>
+                    <ion-icon name="close-outline"></ion-icon>
+                </div>
+                <form>
+                    <div class="email-password">
+                        <div class="input-group">
+                            <label for="email2">
+                                <ion-icon name="mail"></ion-icon>
+                            </label>
+                            <input type="text" id="email2" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="password2">
+                                <ion-icon name="lock-closed"></ion-icon>
+                            </label>
+                            <input type="password" id="password2" name="password" placeholder="Password" required>
+                        </div>
+                    </div>
+                    <div class="terms-unchecked"></div>
+                    <div class="terms-and-conditions">
+                        <input type="checkbox" id="terms-and-conditions" required>
+                        <label for="terms-and-conditions">I agree to the terms & conditions</label>
+                    </div>
+                    <div class="register-btn">
+                        <input type="button" id="register-btn" value="Sign Up">
+                    </div>
+                </form>
+                <div class="register-footer">
+                    <p>Already have an account?</p>
+                    <p id="login-here">Login here</p>
+                </div>
+            </div>
+            <div class="auth-status">
+                <div class="auth-status-header">
+                    <ion-icon name="close-outline"></ion-icon>
+                </div>
+                <div class="status-update"></div>
+            </div>
+        </div>
+        <div class="checklists">
+            <div class="spring-checklist">
+                <div class="spring-header">
+                    <h2>Spring Checklist</h2>
+                    <ion-icon name="close-outline"></ion-icon>
+                </div>
+                <div class="spring-body"></div>
+            </div>
+            <div class="summer-checklist">
+                <div class="summer-header">
+                    <h2>Summer Checklist</h2>
+                    <ion-icon name="close-outline"></ion-icon>
+                </div>
+                <div class="summer-body"></div>
+            </div>
+            <div class="fall-checklist">
+                <div class="fall-header">
+                    <h2>Fall Checklist</h2>
+                    <ion-icon name="close-outline"></ion-icon>
+                </div>
+                <div class="fall-body"></div>
+            </div>
+            <div class="winter-checklist">
+                <div class="winter-header">
+                    <h2>Winter Checklist</h2>
+                    <ion-icon name="close-outline"></ion-icon>
+                </div>
+                <div class="winter-body"></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="scripts/stardew-tracker.js"></script>
+    <script type="module" src="scripts/index.js"></script>
+    <script src="../server.js" defer></script>
+</body>
+</html>
