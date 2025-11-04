@@ -33,7 +33,14 @@ const itemSchema = new mongoose.Schema({
 const BundleItem = mongoose.model('bundleItem', itemSchema);
 
 app.get('/api/items/:season', async (req, res) => {
-
+    const season = req.params.season;
+    
+    try {
+        const items = await BundleItem.find({ season: season });
+        res.json(items);
+    } catch (err) {
+        res.status(500).json({ message: err.message });
+    }
 });
 
 app.listen(PORT, () => {
